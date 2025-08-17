@@ -7,7 +7,7 @@ from generate_embedding import get_embedding_from_base64
 
 app = Flask(__name__)
 CORS(app)
-FETCH_EMBEDDINGS_URL = "https://sdm-connect-2.netlify.app/.netlify/functions/fetchEmbeddings"
+FETCH_EMBEDDINGS_URL = "dummy url for copy"
 
 @app.route("/match-face", methods=["POST", "OPTIONS"])
 def match_face():
